@@ -11,10 +11,10 @@ Regularisation is commonly used in iterative methods for solving imaging inverse
 - [for deblurring?](./deblurring/deblurring_plots_multiple_probs.ipynb)
 - [for tomography?](./tomography/tomography_plots_finden_from_pdhg_explicit_precond.ipynb)
 
-**Quick Demo**: Deblurring
+**Quick Demo**: [Deblurring](./deblurring/demo.ipynb)
 
 ![](comparison.gif)
-_60 sec TV deblurring with FISTA, ISTA and ProxSkip_
+_60 seconds. Three algorithms. One winner. Let the TV deblurring begin..."_
 
 ### Installation
 
