@@ -20,7 +20,7 @@ _60 seconds. Three algorithms. One winner. Let the TV deblurring begin..."_
 
 ### Installation
 
-We use the [Core Imaging Library (CIL)](https://github.com/TomographicImaging/CIL) with some additional [new functionalities](#Appendix).
+We use the [Core Imaging Library (CIL)](https://github.com/TomographicImaging/CIL) with some additional [new functionalities](#Appendix). Code and installation tested on macOS (Apple M2 Pro), Linux, and Windows 10.
 
 ```
 conda create --name why_skip -c conda-forge python=3.12 cmake scipy six cython numba pillow jupyterlab scikit-learn dask cvxpy zarr pywavelets astra-toolbox tqdm nb_conda_kernels
