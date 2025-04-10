@@ -36,6 +36,18 @@ make install
 
 For windows: `cmake ../ -DCONDA_BUILD=OFF`, `cmake --build . --target install`
 
+### Citation
+
+```
+@article{Papoutsellis2025,
+Author = {Evangelos Papoutsellis and Zeljko Kereta and Kostas Papafitsoros},
+Title = {Why do we regularise in every iteration for imaging inverse problems?},
+Year = {10th International Conference on Scale Space and Variational Methods in Computer Vision May 18-22, 2025},
+Eprint = {arXiv:2411.00688},
+}
+```
+
+
 ### Coming soon
 
     - More interesting and computational heavy priors.
