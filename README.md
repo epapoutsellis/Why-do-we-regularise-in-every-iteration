@@ -11,9 +11,7 @@ Regularisation is commonly used in iterative methods for solving imaging inverse
 - [for deblurring?](./deblurring/deblurring_plots_multiple_probs.ipynb)
 - [for tomography?](./tomography/tomography_plots_finden_from_pdhg_explicit_precond.ipynb)
 
-**Quick Demo**: 
-    - [Deblurring](./deblurring/demo.ipynb)
-    - [Deblurring (GoogleColab)](./deblurring/demo_gcolab.ipynb)
+**Quick Demo**: [![Deblurring (GoogleColab)](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epapoutsellis/Why-do-we-regularise-in-every-iteration/blob/main/deblurring/demo_gcolab.ipynb)    
 
 ![](comparison.gif)
 _60 seconds. Three algorithms. One winner. Let the TV deblurring begin..."_
