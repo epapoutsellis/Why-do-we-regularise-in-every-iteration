@@ -36,7 +36,13 @@ make install
 
 For windows: `cmake ../ -DCONDA_BUILD=OFF`, `cmake --build . --target install`
 
-### New Functionalities
+### Coming soon
+
+    - More interesting and computational heavy priors.
+    - PnP with pre-trained denoisers.
+    - Double randomness with stochastic variance reduced estimators.
+
+### New CIL Functionalities
 
 1) Splitting methods for Acquisition Data compatible with CIL and [SIRF](https://github.com/SyneRBI/SIRF).
 2) Sampling methods for CIL Stochastic Functions (used also by SPDHG).
@@ -53,5 +59,7 @@ For windows: `cmake ../ -DCONDA_BUILD=OFF`, `cmake --build . --target install`
 13) PD3O (Primal Dual Three Operator Splitting Algorithm) which can be combined with a Stochastic CIL function.
 14) SIRF Priors classes can be used in the CIL Optimisation Framework for free. In addition, SIRF ObjectiveFunction Classes can be used. This allows more flexibility for SIRF users to have control and monitor a CIL algorithm.
 
+### Acknowledgements    
 
+E. Papoutsellis acknowledges funding through the Innovate UK Analysis for Innovators (A4i) program: "Denoising of chemical imaging and tomography data" under which the experiments were initially conducted, CCPi (EPSRC grant EP/T026677/1), CCP SyneRBI (EPSRC grant EP/T026693/1).
 
